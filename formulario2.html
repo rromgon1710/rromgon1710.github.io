@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title> Practica Formulario 2 </title>
+	</head>
+	<body>
+		<h1> FORMULARIO 2</h1>
+		<form action="" method="get">
+			<ul>
+			<h5> Color de tu pelo </h5>
+				<div>
+ 					 <input type="radio" id="Negro" name="pelo" value="Negro" >
+  						<label for="huey">Negro</label>
+				</div>
+				<div>
+ 					 <input type="radio" id="Rubio" name="pelo" value="Rubio">
+  						<label for="dewey">Rubio</label>
+				</div>
+				<div>
+  					<input type="radio" id="Castaño" name="pelo" value="Castaño">
+  						<label for="louie">Castaño</label>
+				</div>
+				<div>
+  					<input type="radio" id="Pelirrojo" name="pelo" value="Pelirrojo">
+  						<label for="louie">Pelirrojo</label>
+				</div>
+			</ul>
+			<ul>
+			<h5> ¿De donde eres? </h5>
+				<div>
+ 					 <input type="radio" id="Español" name="Procedencia" value="Español" checked>
+  						<label for="huey">Español</label>
+				</div>
+				<div>
+ 					 <input type="radio" id="Extranjero" name="Procedencia" value="Extranjero">
+  						<label for="dewey">Extranjero</label>
+				</div>
+			</ul>
+			<ul>
+			<h5> ¿Cual es tu navegador? </h5>
+				<label> 
+					<input type="checkbox" id="Chrome" value="Navegador"> Google Chrome </label> <br>
+					<input type="checkbox" id="Firefox" value="Navegador">
+					<label for="cbox2"> Firefox 
+				</label>
+			</ul>
+			<ul>
+			<h5> ¿De que provincia de Andalucia eres? </h5>
+				<select name="Provincia">
+					<option>Cadiz</option>
+					<option>Sevilla</option>
+					<option>Huelva</option>
+					<option>Granada</option>
+					<option>Jaen</option>
+					<option>Malaga</option>
+					<option>Cordoba</option>
+					<option>Almeria</option>
+				</select>
+			</ul>
+			<ul>
+			<h5> Contraseña </h5>
+				<label> 
+					<input type="password" name="contraseña" pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$" required>
+				</label>
+			</ul>
+			<ul>
+				<label> 
+				<input type="reset" value="Borrar">
+				</label>
+			</ul>
+			<ul>
+				<input type="submit" value="Enviar">
+			</ul>
+		</form>
+		<a href="index.html">VOLVER</a>
+	</body>
+</html>
+
