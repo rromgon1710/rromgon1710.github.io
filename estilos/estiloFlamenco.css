@@ -1,0 +1,78 @@
+body {
+	background-image: url("../imagenes/fondoFlamenco.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	background-attachment: fixed;
+}
+
+.Cuadro_anuncios img {
+	padding: .2em 0 .1em .3em;
+	display: block;
+	text-decoration: none;
+	color: #333;
+	background: black;
+	border: 1px solid black;
+	border-radius:400px;
+}
+
+.textoHeader {
+	font-size: 10px;
+	color: white;
+	margin: 3em;
+	top: 3em;
+	left: 0;
+	width: 20em;
+	/*height: 15em;*/
+}
+
+.publicidadHeader{
+	padding-top: 3em;
+}
+
+header{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.cabezaAnuncio{
+	display:flex;
+	flex-direction: row;
+}
+
+.cabezaAnuncio img {
+	height: 300px;
+	width: 300px;
+}
+
+.textoAnuncio{
+	color:red;
+	text-align:center;
+}
+
+.Cuadro_anuncios{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}	
+
+.Anuncio{
+	
+	border:red;
+	padding: .5em .5em .5em;
+	
+	/*text-decoration: none;*/
+	border: 1px solid red;
+}
+
+.Anuncio:hover {
+		background-color: black;
+		
+		color: white;
+}
+
+.Anuncio:hover .textoAnuncio {
+	color: white;
+}
